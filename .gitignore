@@ -1,0 +1,9 @@
+# Ignorar todos os arquivos e diretórios
+*
+
+# Permitir o settings.json
+!settings.json
+
+# Permitir o próprio .gitignore
+!.gitignore
+

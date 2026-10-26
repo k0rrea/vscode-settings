@@ -1,0 +1,90 @@
+// Minhas configurações do Visual Studio Code!
+{
+  // Aparência e interface
+  "workbench.colorTheme": "Min Dark",
+  "workbench.iconTheme": "symbols",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.editor.labelFormat": "short",
+  "workbench.activityBar.compact": true,
+  "workbench.activityBar.location": "top",
+  "workbench.browser.showInTitleBar": false,
+
+  // Janela e menus
+  "window.menuBarVisibility": "compact",
+  "window.commandCenter": false,
+  "window.titleBarStyle": "native",
+  "window.customTitleBarVisibility": "never",
+
+  // Editor de código
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 2.0,
+  "editor.fontLigatures": true,
+  "editor.rulers": [80, 120],
+  "editor.renderLineHighlight": "gutter",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.inlineSuggest.enabled": true,
+
+  // Explorador de arquivos
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+  "breadcrumbs.enabled": false,
+
+  // Terminal integrado
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "Cascadia Code PL",
+  "terminal.integrated.defaultProfile.linux": "bash",
+
+  // Salvamento de arquivos
+  "files.autoSave": "afterDelay",
+
+  // Prettier e Emmet
+  "prettier.printWidth": 80,
+  "emmet.triggerExpansionOnTab": true,
+
+  // PHP
+  "[php]": {
+    "editor.defaultFormatter": "DEVSENSE.phptools-vscode",
+  },
+
+  // Chat e inteligência artificial
+  "chat.titleBar.openInAgentsWindow.enabled": false,
+  "chat.sessionSync.enabled": true,
+
+  // Extensões e telemetria
+  "liveServer.settings.donotShowInfoMsg": true,
+  "redhat.telemetry.enabled": true,
+
+  // Domínios confiáveis para esquemas JSON
+  "json.schemaDownload.trustedDomains": {
+    "https://developer.microsoft.com/json-schemas/": true,
+    "https://json-schema.org/": true,
+    "https://json.schemastore.org/": true,
+    "https://raw.githubusercontent.com": true,
+    "https://raw.githubusercontent.com/devcontainers/spec/": true,
+    "https://raw.githubusercontent.com/microsoft/vscode/": true,
+    "https://schemastore.azurewebsites.net/": true,
+    "https://www.schemastore.org/": true,
+  },
+
+  // Alternância automática entre temas claro e escuro
+  "themeswitcher.mappings": [
+    {
+      "time": "06:00",
+      "theme": "GitHub Light Default",
+      "iconTheme": "",
+    },
+    {
+      "time": "18:00",
+      "theme": "Min Dark",
+      "iconTheme": "",
+    },
+  ],
+  "catppuccin-noctis-icons.hidesExplorerArrows": false,
+  "git.enableSmartCommit": true,
+}
